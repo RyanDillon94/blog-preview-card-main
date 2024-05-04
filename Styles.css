@@ -51,8 +51,10 @@ The designs were created to the following widths:
 }
 body {
   background-color: var(--Yellow);
+  font-family: 'Figtree', Comic Sans MS;
 }
 
+/* Footer items */
 .attribution {
   position: absolute;
   bottom: 0;
