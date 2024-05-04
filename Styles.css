@@ -34,58 +34,66 @@ The designs were created to the following widths:
 
 > 💎 This is a free+ challenge. So, if you want to see all the design details and practice working with professional tools like Figma, you can download the design file from where you downloaded the starter code. */
 
-
-@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
-  --Yellow: hsl(47, 88%, 63%);
-  --White: hsl(0, 0%, 100%);
-  --Grey: hsl(0, 0%, 50%);
-  --Black: hsl(0, 0%, 7%);
+	--Yellow: hsl(47, 88%, 63%);
+	--White: hsl(0, 0%, 100%);
+	--Grey: hsl(0, 0%, 50%);
+	--Black: hsl(0, 0%, 7%);
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
+	box-sizing: border-box;
+	margin: 0;
 }
 body {
-  font-family: 'Figtree', Comic Sans MS;
-  font-size: 16px;
+	font-family:
+		'Figtree',
+		Comic Sans MS;
+	font-size: 16px;
 }
 
 .container {
-  background-color: var(--Yellow);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+	background-color: var(--Yellow);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
 .outerBox {
-  background-color: var(--White);
-  width: 80vw;
+	background-color: var(--White);
+	border: 2px solid var(--Black);
+	border-radius: 10px;
+	width: 80vw;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
 }
 
-
+.cardData img {
+	border-radius: 10px;
+}
 
 /* Footer items */
 .attribution {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  font-size: 14px;
-  text-align: center;
-  font-weight: 700;
-  color: white;
-  background-color: black;
-  padding: 5px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 14px;
+	text-align: center;
+	font-weight: 700;
+	color: white;
+	background-color: black;
+	padding: 5px;
 }
 
 .attribution a {
-  color: #00ff00;
-  text-decoration: none;
+	color: #00ff00;
+	text-decoration: none;
 }
 
 .attribution a:hover {
-  color: #ff9c6c;
+	color: #ff9c6c;
 }
