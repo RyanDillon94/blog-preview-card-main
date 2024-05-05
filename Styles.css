@@ -84,6 +84,9 @@ h2 {
 	margin-bottom: 20px;
 }
 
+h2:hover {
+  color: var(--Yellow);
+}
 .cardData p {
 	font-weight: 600;
 	font-size: 0.75rem;
