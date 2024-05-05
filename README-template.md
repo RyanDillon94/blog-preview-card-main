@@ -15,7 +15,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ## Overview
 
--   3rd challenge now i believe, really enjoying it and getting the hang of the HTML CSS ones. Practice really is helping!
+-   4th challenge now i believe, really enjoying it and getting the hang of the HTML CSS ones. Practice really is helping!
 -   Mainly doing these on mobile (Acode) which takes longer and has added complexity when upscaling to browser view but thoroughly enjoying it still! Might try another JS one next ;)
 
 -   ### The challenge
