@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-- ![](./design/Browser%20Screenshot.jpg)
-- ![](./design/Mobile%20Screenshot.jpg)
+![](./design/Browser%20Screenshot.jpg)
+![](./design/Mobile%20Screenshot.jpg)
 
 ## My process
 
